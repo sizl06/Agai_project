@@ -1,0 +1,19 @@
+# Runtime dependencies for the Streamlit dashboard.
+#
+# This file is deliberately small. Streamlit Community Cloud installs whatever is in
+# the repository root's requirements.txt, and the dashboard genuinely needs only these
+# four packages - it reads the pre-built CSVs and never imports scikit-learn, xgboost,
+# shap or fastapi. Installing the full stack there wastes several minutes of build time
+# and is a common cause of deploy failures.
+#
+# Versions are floors rather than pins so this resolves on whichever Python version the
+# host provides. The pinned, reproducible set used for training lives in
+# requirements-dev.txt.
+#
+#   deployment / dashboard only :  pip install -r requirements.txt
+#   full local development      :  pip install -r requirements-dev.txt
+
+streamlit>=1.38
+pandas>=2.2
+plotly>=5.22
+requests>=2.32

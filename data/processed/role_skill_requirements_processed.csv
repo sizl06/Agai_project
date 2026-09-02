@@ -1,0 +1,163 @@
+JobRole,ONET_SOC_Code,SkillName,SkillType,SkillCategory,Importance,RankInRole
+Sales Executive,41-4012.00,Active Listening,Essential Skill,Active Listening,4.0,1
+Sales Executive,41-4012.00,Speaking,Essential Skill,Speaking,4.0,2
+Sales Executive,41-4012.00,Critical Thinking,Essential Skill,Critical Thinking,3.5,3
+Sales Executive,41-4012.00,Reading Comprehension,Essential Skill,Reading Comprehension,3.38,4
+Sales Executive,41-4012.00,Writing,Essential Skill,Writing,3.25,5
+Sales Executive,41-4012.00,Active Learning,Essential Skill,Active Learning,3.12,6
+Sales Executive,41-4012.00,Monitoring,Essential Skill,Monitoring,3.12,7
+Sales Executive,41-4012.00,Mathematics,Essential Skill,Mathematics,2.25,8
+Sales Executive,41-4012.00,Microsoft Outlook,Software Skill,Electronic mail software,4.5,1
+Sales Executive,41-4012.00,Microsoft Office,Software Skill,Office suite software,4.5,2
+Sales Executive,41-4012.00,Salesforce,Software Skill,Customer relationship management CRM software,4.5,3
+Sales Executive,41-4012.00,Microsoft PowerPoint,Software Skill,Presentation software,4.5,4
+Sales Executive,41-4012.00,Microsoft Excel,Software Skill,Spreadsheet software,4.5,5
+Sales Executive,41-4012.00,Adobe Illustrator,Software Skill,Graphics or photo imaging software,3.5,6
+Sales Executive,41-4012.00,Adobe Photoshop,Software Skill,Graphics or photo imaging software,3.5,7
+Sales Executive,41-4012.00,Adobe InDesign,Software Skill,Desktop publishing software,3.5,8
+Sales Executive,41-4012.00,Adobe Creative Cloud,Software Skill,Graphics or photo imaging software,3.5,9
+Sales Executive,41-4012.00,Adobe Acrobat,Software Skill,Document management software,3.5,10
+Sales Representative,41-3091.00,Active Listening,Essential Skill,Active Listening,3.88,1
+Sales Representative,41-3091.00,Speaking,Essential Skill,Speaking,3.88,2
+Sales Representative,41-3091.00,Reading Comprehension,Essential Skill,Reading Comprehension,3.62,3
+Sales Representative,41-3091.00,Writing,Essential Skill,Writing,3.38,4
+Sales Representative,41-3091.00,Active Learning,Essential Skill,Active Learning,3.38,5
+Sales Representative,41-3091.00,Critical Thinking,Essential Skill,Critical Thinking,3.38,6
+Sales Representative,41-3091.00,Monitoring,Essential Skill,Monitoring,3.12,7
+Sales Representative,41-3091.00,Mathematics,Essential Skill,Mathematics,2.62,8
+Sales Representative,41-3091.00,Microsoft Excel,Software Skill,Spreadsheet software,4.5,1
+Sales Representative,41-3091.00,Microsoft Office,Software Skill,Office suite software,4.5,2
+Sales Representative,41-3091.00,Salesforce,Software Skill,Customer relationship management CRM software,4.5,3
+Sales Representative,41-3091.00,HubSpot,Software Skill,Sales and marketing software,3.5,4
+Sales Representative,41-3091.00,Apple macOS,Software Skill,Operating system software,3.5,5
+Sales Representative,41-3091.00,Microsoft Project,Software Skill,Project management software,3.5,6
+Sales Representative,41-3091.00,Microsoft PowerPoint,Software Skill,Presentation software,3.5,7
+Sales Representative,41-3091.00,IBM SPSS Statistics,Software Skill,Analytical or scientific software,3.5,8
+Sales Representative,41-3091.00,Microsoft Outlook,Software Skill,Electronic mail software,3.5,9
+Sales Representative,41-3091.00,Microsoft Word,Software Skill,Word processing software,3.5,10
+Healthcare Representative,41-4011.00,Speaking,Essential Skill,Speaking,4.25,1
+Healthcare Representative,41-4011.00,Active Listening,Essential Skill,Active Listening,4.12,2
+Healthcare Representative,41-4011.00,Reading Comprehension,Essential Skill,Reading Comprehension,3.75,3
+Healthcare Representative,41-4011.00,Active Learning,Essential Skill,Active Learning,3.5,4
+Healthcare Representative,41-4011.00,Critical Thinking,Essential Skill,Critical Thinking,3.38,5
+Healthcare Representative,41-4011.00,Writing,Essential Skill,Writing,3.38,6
+Healthcare Representative,41-4011.00,Monitoring,Essential Skill,Monitoring,3.12,7
+Healthcare Representative,41-4011.00,Mathematics,Essential Skill,Mathematics,2.88,8
+Healthcare Representative,41-4011.00,Microsoft Outlook,Software Skill,Electronic mail software,4.5,1
+Healthcare Representative,41-4011.00,Microsoft Office,Software Skill,Office suite software,4.5,2
+Healthcare Representative,41-4011.00,Microsoft Excel,Software Skill,Spreadsheet software,4.5,3
+Healthcare Representative,41-4011.00,Salesforce,Software Skill,Customer relationship management CRM software,4.5,4
+Healthcare Representative,41-4011.00,Amazon Web Services (AWS),Software Skill,Data base user interface and query software,3.5,5
+Healthcare Representative,41-4011.00,Apache Hadoop,Software Skill,Data base management system software,3.5,6
+Healthcare Representative,41-4011.00,Google Workspace,Software Skill,Office suite software,3.5,7
+Healthcare Representative,41-4011.00,Linux,Software Skill,Operating system software,3.5,8
+Healthcare Representative,41-4011.00,Microsoft Access,Software Skill,Data base user interface and query software,3.5,9
+Healthcare Representative,41-4011.00,Microsoft Azure,Software Skill,Development environment software,3.5,10
+Manager,11-1021.00,Reading Comprehension,Essential Skill,Reading Comprehension,4.0,1
+Manager,11-1021.00,Active Listening,Essential Skill,Active Listening,4.0,2
+Manager,11-1021.00,Speaking,Essential Skill,Speaking,4.0,3
+Manager,11-1021.00,Monitoring,Essential Skill,Monitoring,4.0,4
+Manager,11-1021.00,Critical Thinking,Essential Skill,Critical Thinking,3.88,5
+Manager,11-1021.00,Active Learning,Essential Skill,Active Learning,3.62,6
+Manager,11-1021.00,Writing,Essential Skill,Writing,3.5,7
+Manager,11-1021.00,Learning Strategies,Essential Skill,Learning Strategies,3.0,8
+Manager,11-1021.00,Microsoft PowerPoint,Software Skill,Presentation software,4.5,1
+Manager,11-1021.00,Microsoft Excel,Software Skill,Spreadsheet software,4.5,2
+Manager,11-1021.00,Microsoft Office,Software Skill,Office suite software,4.5,3
+Manager,11-1021.00,Adobe Photoshop,Software Skill,Graphics or photo imaging software,3.5,4
+Manager,11-1021.00,Adobe Acrobat,Software Skill,Document management software,3.5,5
+Manager,11-1021.00,Apple macOS,Software Skill,Operating system software,3.5,6
+Manager,11-1021.00,Autodesk AutoCAD,Software Skill,Computer aided design CAD software,3.5,7
+Manager,11-1021.00,Atlassian JIRA,Software Skill,Content workflow software,3.5,8
+Manager,11-1021.00,Google Analytics,Software Skill,Data mining software,3.5,9
+Manager,11-1021.00,Atlassian Confluence,Software Skill,Project management software,3.5,10
+Human Resources,13-1071.00,Speaking,Essential Skill,Speaking,4.12,1
+Human Resources,13-1071.00,Reading Comprehension,Essential Skill,Reading Comprehension,4.0,2
+Human Resources,13-1071.00,Active Listening,Essential Skill,Active Listening,4.0,3
+Human Resources,13-1071.00,Writing,Essential Skill,Writing,3.88,4
+Human Resources,13-1071.00,Critical Thinking,Essential Skill,Critical Thinking,3.88,5
+Human Resources,13-1071.00,Active Learning,Essential Skill,Active Learning,3.25,6
+Human Resources,13-1071.00,Learning Strategies,Essential Skill,Learning Strategies,3.0,7
+Human Resources,13-1071.00,Monitoring,Essential Skill,Monitoring,3.0,8
+Human Resources,13-1071.00,Microsoft PowerPoint,Software Skill,Presentation software,4.5,1
+Human Resources,13-1071.00,Microsoft Outlook,Software Skill,Electronic mail software,4.5,2
+Human Resources,13-1071.00,Microsoft Office,Software Skill,Office suite software,4.5,3
+Human Resources,13-1071.00,Microsoft Excel,Software Skill,Spreadsheet software,4.5,4
+Human Resources,13-1071.00,Workday,Software Skill,Enterprise resource planning ERP software,4.5,5
+Human Resources,13-1071.00,Applicant Tracking System (ATS),Software Skill,Human resources software,4.0,6
+Human Resources,13-1071.00,Oracle HRIS,Software Skill,Human resources software,4.0,7
+Human Resources,13-1071.00,Cisco Webex,Software Skill,Video conferencing software,3.5,8
+Human Resources,13-1071.00,Adobe Photoshop,Software Skill,Graphics or photo imaging software,3.5,9
+Human Resources,13-1071.00,Adobe Acrobat,Software Skill,Document management software,3.5,10
+Research Scientist,19-1042.00,Writing,Essential Skill,Writing,4.25,1
+Research Scientist,19-1042.00,Speaking,Essential Skill,Speaking,4.12,2
+Research Scientist,19-1042.00,Science,Essential Skill,Science,4.12,3
+Research Scientist,19-1042.00,Active Learning,Essential Skill,Active Learning,4.12,4
+Research Scientist,19-1042.00,Active Listening,Essential Skill,Active Listening,4.0,5
+Research Scientist,19-1042.00,Reading Comprehension,Essential Skill,Reading Comprehension,4.0,6
+Research Scientist,19-1042.00,Critical Thinking,Essential Skill,Critical Thinking,4.0,7
+Research Scientist,19-1042.00,Mathematics,Essential Skill,Mathematics,3.62,8
+Research Scientist,19-1042.00,Microsoft Office,Software Skill,Office suite software,4.5,1
+Research Scientist,19-1042.00,Microsoft Excel,Software Skill,Spreadsheet software,4.5,2
+Research Scientist,19-1042.00,R,Software Skill,Object or component oriented development software,4.5,3
+Research Scientist,19-1042.00,ESRI ArcGIS,Software Skill,Geographic information system,3.5,4
+Research Scientist,19-1042.00,Adobe Photoshop,Software Skill,Graphics or photo imaging software,3.5,5
+Research Scientist,19-1042.00,MATLAB,Software Skill,Analytical or scientific software,3.5,6
+Research Scientist,19-1042.00,SAS,Software Skill,Analytical or scientific software,3.5,7
+Research Scientist,19-1042.00,Python,Software Skill,Object or component oriented development software,3.5,8
+Research Scientist,19-1042.00,IBM SPSS Statistics,Software Skill,Analytical or scientific software,3.5,9
+Research Scientist,19-1042.00,Microsoft Project,Software Skill,Project management software,3.5,10
+Research Director,11-9121.00,Science,Essential Skill,Science,4.12,1
+Research Director,11-9121.00,Reading Comprehension,Essential Skill,Reading Comprehension,4.0,2
+Research Director,11-9121.00,Active Listening,Essential Skill,Active Listening,4.0,3
+Research Director,11-9121.00,Critical Thinking,Essential Skill,Critical Thinking,4.0,4
+Research Director,11-9121.00,Monitoring,Essential Skill,Monitoring,4.0,5
+Research Director,11-9121.00,Writing,Essential Skill,Writing,3.88,6
+Research Director,11-9121.00,Speaking,Essential Skill,Speaking,3.88,7
+Research Director,11-9121.00,Active Learning,Essential Skill,Active Learning,3.5,8
+Research Director,11-9121.00,Microsoft Office,Software Skill,Office suite software,4.5,1
+Research Director,11-9121.00,Microsoft Excel,Software Skill,Spreadsheet software,4.5,2
+Research Director,11-9121.00,Microsoft PowerPoint,Software Skill,Presentation software,4.5,3
+Research Director,11-9121.00,Adobe Acrobat,Software Skill,Document management software,3.5,4
+Research Director,11-9121.00,IBM SPSS Statistics,Software Skill,Analytical or scientific software,3.5,5
+Research Director,11-9121.00,ESRI ArcGIS,Software Skill,Geographic information system,3.5,6
+Research Director,11-9121.00,Microsoft Access,Software Skill,Data base user interface and query software,3.5,7
+Research Director,11-9121.00,Microsoft Visio,Software Skill,Process mapping and design software,3.5,8
+Research Director,11-9121.00,Microsoft SharePoint,Software Skill,Document management software,3.5,9
+Research Director,11-9121.00,Microsoft Project,Software Skill,Project management software,3.5,10
+Laboratory Technician,29-2012.00,Reading Comprehension,Essential Skill,Reading Comprehension,3.75,1
+Laboratory Technician,29-2012.00,Active Listening,Essential Skill,Active Listening,3.62,2
+Laboratory Technician,29-2012.00,Critical Thinking,Essential Skill,Critical Thinking,3.25,3
+Laboratory Technician,29-2012.00,Speaking,Essential Skill,Speaking,3.12,4
+Laboratory Technician,29-2012.00,Science,Essential Skill,Science,3.0,5
+Laboratory Technician,29-2012.00,Writing,Essential Skill,Writing,3.0,6
+Laboratory Technician,29-2012.00,Monitoring,Essential Skill,Monitoring,3.0,7
+Laboratory Technician,29-2012.00,Active Learning,Essential Skill,Active Learning,3.0,8
+Laboratory Technician,29-2012.00,Microsoft Office,Software Skill,Office suite software,4.5,1
+Laboratory Technician,29-2012.00,Microsoft Excel,Software Skill,Spreadsheet software,4.5,2
+Laboratory Technician,29-2012.00,Microsoft PowerPoint,Software Skill,Presentation software,3.5,3
+Laboratory Technician,29-2012.00,Microsoft Outlook,Software Skill,Electronic mail software,3.5,4
+Laboratory Technician,29-2012.00,MEDITECH,Software Skill,Medical software,3.5,5
+Laboratory Technician,29-2012.00,Google Docs,Software Skill,Word processing software,3.5,6
+Laboratory Technician,29-2012.00,SAP,Software Skill,Enterprise resource planning ERP software,3.5,7
+Laboratory Technician,29-2012.00,Microsoft Word,Software Skill,Word processing software,3.5,8
+Laboratory Technician,29-2012.00,Email,Software Skill,Electronic mail software,3.0,9
+Laboratory Technician,29-2012.00,Electronic Medical Record (EMR),Software Skill,Medical software,3.0,10
+Manufacturing Director,11-3051.00,Critical Thinking,Essential Skill,Critical Thinking,4.0,1
+Manufacturing Director,11-3051.00,Speaking,Essential Skill,Speaking,4.0,2
+Manufacturing Director,11-3051.00,Monitoring,Essential Skill,Monitoring,4.0,3
+Manufacturing Director,11-3051.00,Reading Comprehension,Essential Skill,Reading Comprehension,3.88,4
+Manufacturing Director,11-3051.00,Active Listening,Essential Skill,Active Listening,3.88,5
+Manufacturing Director,11-3051.00,Learning Strategies,Essential Skill,Learning Strategies,3.75,6
+Manufacturing Director,11-3051.00,Active Learning,Essential Skill,Active Learning,3.62,7
+Manufacturing Director,11-3051.00,Writing,Essential Skill,Writing,3.38,8
+Manufacturing Director,11-3051.00,Microsoft Office,Software Skill,Office suite software,4.5,1
+Manufacturing Director,11-3051.00,Microsoft Excel,Software Skill,Spreadsheet software,4.5,2
+Manufacturing Director,11-3051.00,Microsoft Outlook,Software Skill,Electronic mail software,4.5,3
+Manufacturing Director,11-3051.00,Microsoft PowerPoint,Software Skill,Presentation software,4.5,4
+Manufacturing Director,11-3051.00,SAP,Software Skill,Enterprise resource planning ERP software,4.5,5
+Manufacturing Director,11-3051.00,Autodesk AutoCAD,Software Skill,Computer aided design CAD software,3.5,6
+Manufacturing Director,11-3051.00,Adobe Photoshop,Software Skill,Graphics or photo imaging software,3.5,7
+Manufacturing Director,11-3051.00,Adobe InDesign,Software Skill,Desktop publishing software,3.5,8
+Manufacturing Director,11-3051.00,Adobe Acrobat,Software Skill,Document management software,3.5,9
+Manufacturing Director,11-3051.00,Adobe After Effects,Software Skill,Video creation and editing software,3.5,10

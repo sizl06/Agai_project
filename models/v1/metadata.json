@@ -1,0 +1,20 @@
+{
+  "model_name": "Attrition Prediction Model",
+  "version": "v1.0",
+  "version_folder": "v1",
+  "algorithm": "LogisticRegression",
+  "training_date": "2026-09-02",
+  "decision_threshold": 0.58,
+  "selection_metric": "0.5 * ROC-AUC + 0.5 * PR-AUC (threshold-independent)",
+  "threshold_metric": "F2 maximised on out-of-fold predictions",
+  "training_rows": 1176,
+  "test_rows": 294,
+  "engineered_feature_count": 37,
+  "random_state": 42,
+  "roc_auc": 0.8006,
+  "pr_auc": 0.5429,
+  "precision": 0.4262,
+  "recall": 0.5532,
+  "f1": 0.4815,
+  "f2": 0.5221
+}

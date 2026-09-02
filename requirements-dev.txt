@@ -1,0 +1,30 @@
+# Full development stack: training, the API, the dashboard, notebooks and tests.
+#
+#   pip install -r requirements-dev.txt
+#
+# The three requirement files split by what actually needs to be installed where:
+#
+#   requirements.txt      dashboard only  - 4 packages, what Streamlit Cloud installs
+#   requirements-api.txt  backend only    - model + FastAPI, what the API image installs
+#   requirements-dev.txt  everything      - this file
+#
+# scikit-learn, xgboost and joblib are pinned in requirements-api.txt because those
+# versions produced models/v1 and the metrics recorded in its metadata.json. A joblib
+# artifact is not guaranteed to load across scikit-learn versions.
+
+-r requirements.txt
+-r requirements-api.txt
+
+# --- visualisation (notebooks) ---
+matplotlib==3.10.5
+seaborn==0.13.2
+
+# --- testing ---
+pytest>=8.0
+httpx>=0.27
+
+# --- notebooks ---
+jupyter
+nbformat
+nbclient
+ipykernel

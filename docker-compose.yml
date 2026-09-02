@@ -1,0 +1,68 @@
+# Enterprise HR AI - backend and dashboard as separate services.
+#
+#   docker compose up --build
+#
+#   API       http://localhost:8000/docs
+#   Dashboard http://localhost:8501
+#
+# Data and models are bind-mounted rather than baked into the images. That keeps a
+# retrain from requiring an image rebuild, and makes it obvious which artifacts a
+# running container is actually serving.
+#
+# Before the first run, the pipeline artifacts must exist on the host:
+#   python -m pipelines.run_all
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: hr-ai-api:1.0.0
+    container_name: hr-ai-api
+    ports:
+      - "8000:8000"
+    volumes:
+      # Read-only: the API must never modify training data or a released model.
+      - ./data/raw:/app/data/raw:ro
+      - ./data/processed:/app/data/processed:ro
+      - ./data/external:/app/data/external:ro
+      - ./models:/app/models:ro
+      # Writable: prediction logs and application logs.
+      - ./data/predictions:/app/data/predictions
+      - ./logs:/app/logs
+      - ./reports:/app/reports
+    environment:
+      - PYTHONPATH=/app
+    healthcheck:
+      test: ["CMD", "python", "-c",
+             "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 5s
+      start_period: 20s
+      retries: 3
+    restart: unless-stopped
+
+  dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    image: hr-ai-dashboard:1.0.0
+    container_name: hr-ai-dashboard
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data/processed:/app/data/processed:ro
+      - ./data/external:/app/data/external:ro
+      - ./models:/app/models:ro
+    environment:
+      # Service name, not localhost - inside the compose network the API is "api".
+      - HR_AI_API_URL=http://api:8000
+      - PYTHONPATH=/app
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped
+
+networks:
+  default:
+    name: hr-ai-network

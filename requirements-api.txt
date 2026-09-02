@@ -1,0 +1,21 @@
+# Runtime dependencies for the FastAPI backend.
+#
+#   pip install -r requirements-api.txt
+#
+# What the API needs to load the model, engineer features, predict and explain -
+# and nothing else. No streamlit, no jupyter, no test tooling, no plotting. This is
+# what the backend Docker image installs, which keeps that image meaningfully
+# smaller than a full development environment.
+
+pandas>=2.2
+numpy>=2.0
+
+scikit-learn==1.8.0
+xgboost==3.2.0
+joblib==1.5.3
+shap>=0.46
+scipy>=1.13
+
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.10

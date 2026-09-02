@@ -1,0 +1,30 @@
+# Version control and IDE
+.git/
+.gitignore
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Notebooks - the images do not run them
+notebooks/
+*.ipynb
+.ipynb_checkpoints/
+
+# Large source data. data/ is mounted at runtime instead; see docker-compose.yml.
+data/
+models/
+logs/
+reports/
+*.csv
+*.docx
+
+# Docs. Requirement files are .txt and so are never matched here; the backend image
+# copies requirements-api.txt and the frontend image copies requirements.txt.
+*.md
